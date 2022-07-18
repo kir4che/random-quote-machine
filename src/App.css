@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+body {
+  @apply h-screen flex justify-center place-items-center text-center text-white;
+  font-family: 'Raleway', sans-serif;
+  background-color: var(--mainColor);
+}
+
+.quote-box {
+  width: 450px;
+  color: var(--mainColor);
+}
+
+.btn {
+  @apply h-10 w-10 rounded text-lg;
+  background-color: var(--mainColor);
+}
+
+.changeBtn {
+  @apply h-10 w-28 rounded float-right font-medium text-sm;
+  border: var(--mainColor) 2px solid;
+  color: var(--mainColor);
+}
+
+.changeBtn:hover {
+  @apply text-white duration-500;
+  background-color: var(--mainColor);
+}
