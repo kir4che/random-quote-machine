@@ -1,6 +1,6 @@
 ## 項目展示
 
-[Demo](https://random-quote-machine-ecru.vercel.app/)（完整程式碼：[Github](https://github.com/kir4che/random-quote-machine)）
+[Demo](https://random-quote-machine-ecru.vercel.app/)（2022.04.19 完成）
 
 ※ 顏色可能過亮，觀看時請注意！
 
